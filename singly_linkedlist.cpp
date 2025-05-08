@@ -11,6 +11,8 @@ public:
 class LingkedList
 {
     Node * START;
-    
+
+public:
+    LingkedList()
 }
-}
+
