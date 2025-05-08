@@ -72,6 +72,15 @@ public:
             *previous = *current;
             *current = (*current)->next;
         }
+        return (*current != NULL);
+    }
+
+    bool delNode (int nim)
+    {
+        Node * current, * previous;
+        if (!Seacrh(nim, &previous, &current))
+            return false;
+        if (current == START)
     }
 
 };
